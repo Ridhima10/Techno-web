@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.card-body>img{
+    min-width: 50%;
+    max-height: 200px;
+}
+@media screen and (min-width:500px) and (max-width: 760px){
+    .card-body>img{
+        min-width: 43%;
+    }
+}
+@media screen and (min-width:250px) and (max-width: 500px){
+    .carousel-item>img{
+        height: 32vh;
+    }
+}
